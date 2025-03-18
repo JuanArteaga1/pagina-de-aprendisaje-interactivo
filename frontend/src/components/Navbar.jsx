@@ -10,8 +10,8 @@ const Navbar = () => {
                 </Link>
                 <ul className="nav-links">
                     <li><Link to="/simulaciones">Simulaciones</Link></li>
-                    <li><Link to="#">Aplicaciones Móviles</Link></li>
-                    <li><Link to="#">Investigaciones</Link></li>
+                    <li><Link to="/appmovil">Aplicaciones Móviles</Link></li>
+                    <li><Link to="/investigaciones">Investigaciones</Link></li>
                     <li><Link to="/podcast">Podcast</Link></li>
                 </ul>
             </div>
