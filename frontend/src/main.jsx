@@ -9,6 +9,7 @@ import Appmovil from "./pages/appmovil";
 import Investigaciones from "./pages/investigaciones";
 import Subirsimulaciones from "./pages/subir_Simulaciones";
 import "./index.css";
+import SubirInvestigaciones from "./pages/SubirInvestigaciones";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -20,7 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/appmovil" element={<Appmovil />} />
       <Route path="/investigaciones" element={<Investigaciones />} />
       <Route path="/subirsimulaciones" element={<Subirsimulaciones />} />
-      <Route path="/subirInvestigaciones" element={<h1>investigaciones</h1>} />
+      <Route path="/SubirInvestigaciones" element={<SubirInvestigaciones />} />
       <Route path="/subirproyectos" element={<h1>proyectos</h1>} />
       <Route path="/subirpodcast" element={<h1>podcast</h1>} />
 
