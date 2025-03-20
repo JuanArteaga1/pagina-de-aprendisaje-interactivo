@@ -9,16 +9,17 @@ const Login = () => {
         <form>
           <label>Email:</label>
           <input type="email" placeholder="Correo electrónico" required />
-          
+
           <label>Contraseña:</label>
           <input type="password" placeholder="Contraseña" required />
-          
+
           <button type="submit">Ingresar</button>
         </form>
       </div>
 
       {/* Imagen a la derecha */}
-      <div className="login-image"></div>
+      <div className="login-image">
+      </div>
     </div>
   );
 };
