@@ -4,15 +4,14 @@ import "./SubirInvestigaciones.css";
 import subirInvestigacionesImg from "../img/Subir_Investigaciones.jpg"; // Importa la imagen correctamente
 
 const SubirInvestigaciones = () => {
-    const [loggedIn] = useState(true); // Estado para simular que el usuario está logueado
-    const [imagen, setImagen] = useState(null); // Estado para la imagen
-    const [texto, setTexto] = useState(""); // Estado para el texto
-    const [archivo, setArchivo] = useState(null); // Estado para el archivo (PDF o artículo)
+    const [loggedIn] = useState(true); 
+    const [imagen, setImagen] = useState(null); 
+    const [texto, setTexto] = useState(""); 
+    const [archivo, setArchivo] = useState(null); 
 
     // Función para manejar el envío del formulario
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aquí puedes agregar la lógica para enviar los datos al servidor
         console.log("Imagen:", imagen);
         console.log("Texto:", texto);
         console.log("Archivo:", archivo);
